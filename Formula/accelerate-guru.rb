@@ -9,18 +9,18 @@ class AccelerateGuru < Formula
   desc "Ultra-high performance intelligent reverse proxy for Magento 2"
   homepage "https://accelerate.guru"
   # version, url, and sha256 are replaced automatically on every release
-  version "1.30.0"
+  version "1.30.1"
   license "Proprietary"
 
   on_macos do
     on_arm do
-      url "https://accelerate.guru/dist/v1.30.0/accelerate-guru-darwin-aarch64.tar.gz"
-      sha256 "74839e74a88ebb102d4a19cc782484b7ada78043a2878f7d9d5167ecff7703cb"
+      url "https://accelerate.guru/dist/v1.30.1/accelerate-guru-darwin-aarch64.tar.gz"
+      sha256 "f3ecee4b3069a4dddfc511841a36999d03cf35e64c9ebff9c604a267208d39d7"
     end
 
     on_intel do
-      url "https://accelerate.guru/dist/v1.30.0/accelerate-guru-darwin-x86_64.tar.gz"
-      sha256 "f9eaacaa5851710e13c0e663c8a2e3cba20e2d376b2056eb372dc74a9ed64a40"
+      url "https://accelerate.guru/dist/v1.30.1/accelerate-guru-darwin-x86_64.tar.gz"
+      sha256 "5bf196aa5327ee5c1c20ca6faf45ac7da537ecf3815ef8a56722f12b2798dd82"
     end
   end
 
